@@ -1,0 +1,16 @@
+Unit: microseconds
+              expr   min    lq    mean median    uq    max neval
+ Factorial_loop(5) 6.016 6.241 7.49865   6.57 7.066 21.314   100
+
+
+Unit: microseconds
+                expr    min      lq     mean median     uq     max neval
+ Factorial_reduce(5) 20.029 20.9605 23.99515 21.917 22.813 133.355   100
+
+Unit: microseconds
+              expr   min     lq    mean median    uq    max neval
+ Factorial_func(5) 6.687 6.9375 7.40877  7.096 7.383 21.759   100
+
+Unit: microseconds
+             expr   min     lq    mean median     uq   max neval
+ Factorial_mem(5) 1.392 1.4465 2.31749  1.542 1.7505 40.91   100
